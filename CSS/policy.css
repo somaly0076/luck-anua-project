@@ -1,0 +1,25 @@
+/* typography style */
+td{
+    font-style: italic;
+    font-weight: 200;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h2{
+    font-weight:400;
+}
+
+p{
+    font-weight: 400;
+    font-size: smaller;
+}
+
+
+/* font family style */
+*{
+    font-family:Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+}

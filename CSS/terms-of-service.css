@@ -1,0 +1,14 @@
+
+
+p, h1,h2 {
+    font-family: Helvetica, "Helvetica Neu",Arial, "Lucida Grande",sans-serif;
+    
+}
+p{
+    font-size: 15px;
+}
+
+.title{
+    
+    justify-content: center;
+}

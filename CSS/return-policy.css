@@ -1,0 +1,22 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p, h1,h2 {
+    font-family: Helvetica, "Helvetica Neu",Arial, "Lucida Grande",sans-serif;
+    
+}
+p{
+    font-size: 15px;
+    
+}
+
+.return-policy-content{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+}
+.content-title{
+    margin: auto;
+}

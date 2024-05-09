@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(/fonts/HelveticaNeueMedium.otf);
+}
+
+@font-face {
+    font-family: "Helvetica Neue Black";
+    src: url(/fonts/HelveticaNeueBlack.otf);
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(/fonts/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: "Helvetica Bold";
+    src: url(/fonts/Helvetica-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+/* html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+} */
+
+body, html {
+    width: 100%;
+    height: 100%;
+    min-width: 500px;
+}
+
+/* main container */
+
+.sign-up-container {
+    width: 100%;
+    height: 100%;
+    max-height: 1000px;
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-content {
+    width: 27.5rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.sign-up-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-header header {
+    width: 100%;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+    font-size: calc(1rem + (1rem / 2));
+    font-weight: 200;
+    opacity: 0.85;
+}
+
+.sign-up-header p {
+    width: 100%;
+    text-align: center;
+    font-size: calc(1rem - 1px);
+    font-family: "Helvetica", sans-serif;
+}
+
+.input-wrapper {
+    width: 100%;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 2.97rem;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    padding: 10.4px 12.8px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.input-box input[placeholder] {
+    font-family: "Helvetica", "Helvetica Neue";
+    font-size: 16px;
+    opacity: 0.75;
+    font-weight: 500;
+    color: black;
+}
+
+.input-submit {
+    margin-top: 10.8px;
+    text-align: center;
+    width: 100%;
+}
+
+.input-submit button {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 10.8px 28px;
+    background-color: black;
+    color: #ffffff;
+    font-family: "Helvetica", "Helvetica Neue";
+    font-size: 14px;
+}
+
+.input-submit button label {
+    font-size: 14px;
+}
+
+.login-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin-top: 10.8px;
+    font-size: 15px;
+    font-family: "Helvetica", "Helvetica Neue";
+    opacity: 0.7;
+}
+
+.login-link p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.login-link a {
+    color: black;
+    font-size: 15px;
+    font-family: "Helvetica", "Helvetica Neue";
+    opacity: 0.8;
+}
+
+.icon-singin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-link-a{
+    margin: 120px;
+    margin-top: 5px;
+
+    
+}
+
+.divider {
+    text-align: center;
+    margin: 5px 0 10px 0;
+    position: relative;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    display: inline-block;
+    width: 250%;
+    border-top: 1px solid #000;
+    position: absolute;
+    top: 50%;
+}
+
+.divider::before {
+    right: calc(80% + 10px);
+}
+
+.divider::after {
+    left: calc(80% + 10px);
+}
+
+.divider-text {
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.login-link-a svg:hover{
+    background-color: lightgray;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    * {
+        font-size: 10px;
+    }
+}

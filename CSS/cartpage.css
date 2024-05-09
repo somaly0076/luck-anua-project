@@ -1,0 +1,35 @@
+.outer-cart{
+    display: grid;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 64px 0px;
+      text-align: center;
+      align-content: center;
+      overflow-wrap: anywhere;
+  }
+  .inner-cart{
+    padding: 200px 0px;
+    width: 680px;
+    /* overflow-wrap: anywhere; */
+  }
+
+.main h4{
+      font-family:“Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif”; 
+      text-align: center;     
+    }
+#shopping-button{
+        padding: 10.4px 28px;
+        /* width: auto; */
+        }
+        
+        .outer-cart > p{
+            font-family:“Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif” ;
+            margin: 16px 0px 0px;
+            font-size: 15px;
+            }
+            .pose{
+              overflow-wrap: anywhere;
+            }
+            html{
+              min-width: 680px;
+            }

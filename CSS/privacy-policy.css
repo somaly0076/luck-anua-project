@@ -1,0 +1,31 @@
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.TheStoreFunction {
+    display: row;
+}
+.column {
+    text-align: left ;
+}
+.column2 {
+    text-align: center;
+
+}
+
+p, h1,h2 {
+    font-family: Helvetica, "Helvetica Neu",Arial, "Lucida Grande",sans-serif;
+}
+ul{
+   font-family: Helvetica, "Helvetica Neu",Arial, "Lucida Grande",sans-serif;
+   margin: 20px 0px 0px 15px;
+   padding: 0px;
+}
+li {
+    padding: 0px 0px 0px 4px;
+
+}
+p {
+    margin: 20px, 0px, 0px, 0px;
+}
